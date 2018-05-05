@@ -1,0 +1,91 @@
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+#header{
+    margin-top: 10px;
+    background: rgba(175,158,33,0.33);    
+    border: 1px solid black;
+}
+.navbar {
+    width: 100%;
+     
+    
+  }
+    @media (max-width: 34em) {
+      .navbar {
+        background: black !important; } }
+    .navbar .navbar-toggler {
+      cursor: pointer;
+      outline: 0; }
+    .navbar .nav-link {
+      text-transform: uppercase;
+      font-weight: bold; }
+    .navbar .nav-item {
+      padding: 0 1rem; }
+      @media (max-width: 34em) {
+        .navbar .nav-item {
+          padding: 0; } }
+      @media (max-width: 34em) {
+        .navbar .nav-item .nav-link {
+          font-weight: normal;
+          color: #fff !important; 
+        } 
+    }
+#card{
+    margin-top: 20px;
+    border: 1px solid purple;
+    margin-bottom: 20px;
+   
+}
+#video{
+    width: 100%;
+    height: 500px;
+}
+
+/*new*/
+.row{ margin:20px 20px 20px 20px;}
+.ratings{ font-size:25px !important;}
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+.glyphicon-thumbs-up:hover{ color:#008000; cursor:pointer;}
+.glyphicon-thumbs-down:hover{ color: #E10000; cursor:pointer;}
+.counter{ color:#333333;}
+.thumbnail img{height:200px;}
